@@ -11,6 +11,6 @@ cd ./1A2B
 yarn install
 ```
 2. Open two terminal windows, and go to ```/1A2B``` folder
-3. In one window, ```yarn server``` for **backend**
+3. In one window, run ```yarn server``` for **backend**
 4. The other window, run ```yarn start``` for **frontend**
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
