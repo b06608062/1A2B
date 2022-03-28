@@ -4,7 +4,7 @@
 ![This is an image](https://github.com/b06608062/1A2B/blob/master/demo_image/%E6%88%AA%E5%9C%96%202022-03-25%20%E4%B8%8B%E5%8D%887.22.46.png)
 
 ## Run in local
-1. Download and install.
+1. Download and install packages.
 ```
 git clone https://github.com/b06608062/1A2B.git
 cd ./1A2B
