@@ -11,4 +11,4 @@ app.use('/api/guess', guessRoute);
 const port = process.env.PORT || 4000
   app.listen(port, () => {
     console.log(`Server is up on port ${port}.`)
-  })
+  });
