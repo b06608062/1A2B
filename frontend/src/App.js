@@ -102,6 +102,6 @@ function App() {
       {hasStarted ? game : startMenu}
     </div>
   );
-}
+};
 
 export default App;

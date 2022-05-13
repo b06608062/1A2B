@@ -12,7 +12,7 @@ const checkInput = (number) => {
     }
 
     return isLegal ? number : 0;
-}
+};
 
 const compare = (guessed, target) => {
     let A = 0;
@@ -26,7 +26,7 @@ const compare = (guessed, target) => {
     }
 
     return { A, B };
-}
+};
 
 const serverGuessed = () => {
     let randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -42,7 +42,7 @@ const serverGuessed = () => {
     }
 
     return itGuessed[0] + itGuessed[1] + itGuessed[2] + itGuessed[3];
-}
+};
 
 router.post('/start', (_, res) => {
     genTarget(true);
