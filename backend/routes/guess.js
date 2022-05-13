@@ -58,8 +58,8 @@ router.get('/guess', (req, res) => {
         let itGuessed = serverGuessed();
         let { A, B } = compare(myGuessed, target);
         let itResult = compare(itGuessed, target);
-        A === 4 ? 
-        res.send({ msg: 'Equal' }) : itResult.A === 4 ? 
+        A === 4 ?
+        res.send({ msg: 'Equal' }) : itResult.A === 4 ?
         res.send({ msg: `Server won`, target: itGuessed }) : res.send({ msg: `-player-${myGuessed}-${A}A${B}B-\n-server-${itGuessed}-${itResult.A}A${itResult.B}B-\n` });
     }
 });
